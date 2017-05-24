@@ -56,7 +56,7 @@ public class Picoyplaca {
         int placa1=placa%10;
         if((horas>6&&horas<9||horas>15&&horas<19)||(horas==9&&min<31||horas==19&&min<31)){
             if(((placa1==1||placa1==2)&&dias==2)||((placa1==3||placa1==4)&&dias==3)||((placa1==5||placa1==6)&&dias==4)||((placa1==7||placa1==8)&&dias==5)||((placa1==9||placa1==0)&&dias==6)){
-                System.out.println(placa1+" "+dias+" NO Puede circular");
+                System.out.println(placa1+" "+dias+" Posible Multa...NO PUEDE CIRCULAR!!");
             }
            else 
             System.out.println("Puede circular");  
